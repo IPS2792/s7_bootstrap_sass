@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  font-family: "Lato";
+}
+
+header, nav {
+  background-color: #181f2a;
+}
+/*# sourceMappingURL=style.css.map */
