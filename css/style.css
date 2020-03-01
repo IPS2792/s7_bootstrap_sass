@@ -1,10 +1,14 @@
 * {
   font-family: "Lato";
   color: white;
+
+}
+
+.row {
   background-color: #181f2a;
 }
 
 header, nav {
-  background-color: #181f2a;
+
 }
 /*# sourceMappingURL=style.css.map */
