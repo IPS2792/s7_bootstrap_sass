@@ -1,14 +1,26 @@
-* {
+body {
   font-family: "Lato";
   color: white;
-
-}
-
-.row {
   background-color: #181f2a;
 }
 
-header, nav {
+#divCard {
+  background-color: #1c2431;
+}
 
+a.nav-link {
+  color: white;
+}
+
+footer {
+  background-color: #0b1523;
+}
+
+#divCard {
+  background-color: #181f2a;
+}
+
+#divTestimonials {
+  background-color: #202a3c;
 }
 /*# sourceMappingURL=style.css.map */

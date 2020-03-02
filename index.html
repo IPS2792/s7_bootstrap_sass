@@ -13,15 +13,17 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
-                <header>
+            <div class="col-12" id="divHeader">
+                <br>
+                <header class="d-flex justify-content-around">
                     <img src="images/logo.svg" alt="Fylo">
-                    <nav class="d-flex flex-row-reverse">
-                        <ul>Features</ul>
-                        <ul>Team</ul>
-                        <ul>Sing in</ul>
+                    <nav class="nav">
+                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="#">Sign In</a>
                     </nav>
                 </header>
+                <br>
             </div>
         </div>
 
@@ -31,9 +33,9 @@
                     <div class="rounded mx-auto d-block" style="width: 50%;">
                         <img src="./images/illustration-intro.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h2>
+                            <h2>
                               <p class="card-text text-center mb-1">All your files in one secure location,</p>
-                                <p class="card-text text-center">accesible anywhere</p>
+                              <p class="card-text text-center">accesible anywhere</p>
                             </h2>
                           <p class="card-text text-center">Fylo stores all our most important files in one secure location.</p>
                           <p class="card-text text-center">Access them whenever you need, share and collabore with friends family, and co-workers.</p>
@@ -109,58 +111,68 @@
 
         <div class="row py-5 px-3 px-md-5">
             <div class="col-12 col-md-4">
-                <div class="py-4 py-md-5" style="max-width: 18rem;">
-                    <div>
-                        <p>Fylo has improved our team productivity y an order of magnitude. Since making the swich our team has become a well-oiled collaboration machine </p>
-                        <p>
+                <div class="py-4 py-md-5 shadow" style="max-width: 20rem;" id="divTestimonials">
+                    <div class="m-2">
+                        <p>Fylo has improved our team productivity y an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine</p>
                         <img src="./images/profile-1.jpg" height="10%" width="10%" class= "rounded-circle mx-auto">
-                            Satish Patel<br>Founder & CEO, Huddle
-                        </p>
+                        Satish Patel<br>Founder & CEO, Huddle
+                        <br>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-4">
-                <div class="my-4 my-md-5" style="max-width: 18rem;">
-                    <div>
-                        <p>Fylo has improved our team productivity y an order of magnitude. Since making the swich our team has become a well-oiled collaboration machine </p>
+                <div class="py-4 py-md-5 shadow" style="max-width: 20rem;" id="divTestimonials">
+                    <div class="m-2">
+                        <p>Fylo has improved our team productivity y an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine</p>
                         <img src="./images/profile-2.jpg" height="10%" width="10%" class= "rounded-circle mx-auto">
                         Bruce McKenzie<br>Founder & CEO, Huddle
+                        <br>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-4">
-                <div class="my-4 my-md-5" style="max-width: 18rem;">
-                    <div>
-                        <p class="card-title">Fylo has improved our team productivity y an order of magnitude. Since making the swich our team has become a well-oiled collaboration machine </p>
+                <div class="py-4 py-md-5 shadow" style="max-width: 20rem;" id="divTestimonials">
+                    <div class="m-2">
+                        <p>Fylo has improved our team productivity y an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine</p>
                         <img src="./images/profile-3.jpg" height="10%" width="10%" class= "rounded-circle mx-auto">
                         Iva Boyd<br>Founder & CEO, Huddle
+                        <br>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">      
-            <div class="col-12">
-                <form class="form-inline">
-                    <p>Get early access today</p>
-                    <p>It only takes a minute to sign up d our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you</p>
-                    <div class="form-group mx-sm-3 mb-2">
-                      <label for="inputPassword2" class="sr-only">Password</label>
-                      <input type="password" class="form-control" id="inputPassword2" placeholder="email@example.com">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="card text-center w-50 rounded shadow" id="divCard">      
+                    <div class="card-body">
+                        <h4 class="card-title">Get early access today</h4>
+                        <p class="card-text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>            
+                        <form class="form-inline d-flex justify-content-around">
+                            <div class="form-group mx-sm-3 mb-2 d-flex justify-content-around">
+                              <label for="inputPassword2" class="sr-only">Password</label>
+                              <input type="password" class="form-control" id="inputPassword2" placeholder="email@example.com">
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-2">Get started for free</button>
+                        </form>
                     </div>
-                    <button type="submit" class="btn btn-primary mb-2">Get stared free</button>
-                  </form>
+                </div>
             </div>
         </div>
 
-        <div class="row py-5" style="background-color: #0B1423;">    
+        <br>
+
+        <footer>
+            <br>
+            <img src="images/logo.svg" alt="Fylo" class="ml-3">
+            <div class="row py-5" id="divFooter">
                 <div class="col-12 col-md-4 mt-5 mt-md-1 mb-3">
-                    <img src="./images/icon-location.svg" height="auto" width="5%" class= "rounded-circle m-2">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quam doloribus nulla culpa odio quibusdam non, 
+                    <img src="./images/icon-location.svg" height="auto" width="5%" class= "rounded-circlem-2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quam doloribus nullaculpa odio quibusdam non.</p>
                 </div>
                 <div class="col-12 col-md-2 mb-5">
-                    <p><img src="./images/icon-phone.svg" height="auto" width="10%" class= "mx-2"> 1-543-123--4567</p>
-                    <img src="./images/icon-email.svg" height="auto" width="10%" class= "mx-2">correo@fylo.com
+                    <p><img src="./images/icon-phone.svg" height="auto" width="10%" class= "mx-2">1-543-123--4567</p>
+                    <img src="./images/icon-email.svg" height="auto" width="10%" class="mx-2">correo@fylo.com
                 </div>
                 <div class="col-12 col-md-2">
                     <ul>About us</ul>
@@ -174,21 +186,16 @@
                     <ul>Privacy</ul>
                 </div>
                 <div class="col-12 col-md-2">
-                    <img src="./images/facebook-logo.png" height="auto" width="15%" class= "rounded-circle mx-2 border border-white p-1">
-                    <img src="./images/twitter-logo.png" height="auto" width="15%" class= "rounded-circle mx-2 border border-white p-1">
-                    <img src="./images/instagram-logo.png" height="auto" width="15%" class= "rounded-circle mx-2 border border-white p-1">
+                    <img src="./images/facebook-logo.png" height="auto" width="15%" class="rounded-circle mx-2 border border-white p-1">
+                    <img src="./images/twitter-logo.png" height="auto" width="15%" class= "rounded-circlemx-2 border border-white p-1">
+                    <img src="./images/instagram-logo.png" height="auto" width="15%" class="rounded-circle mx-2 border border-white p-1">
                 </div>
-                </div>
-        </div>
-               
+            </div>
+        </footer>
+
     </div>
-
-
     
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
