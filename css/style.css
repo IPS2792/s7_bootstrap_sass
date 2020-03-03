@@ -50,6 +50,10 @@ nav ul{
   font-weight: lighter;
 }
 
+#divCard{
+  background-color: #181f2a;
+}
+
 .card-title{
   font-size: 20px;
   font-weight: bold;
